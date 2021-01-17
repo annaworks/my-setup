@@ -1,0 +1,35 @@
+# Virtual stack
+sba()
+{
+    source ~/dev/vstacks/$1/bin/activate
+}
+
+# GIT ALIASES
+alias gt="git log --oneline --graph --decorate --all"
+alias gl="git log --oneline --decorate"
+alias gp="git pull"
+alias gps="git push"
+alias gc="git checkout"
+alias gcm="git commit -m"
+alias gr="git rebase"
+alias ga="git add"
+alias gb="git branch"
+alias grecent="git for-each-ref --sort='-committerdate' --format='%(refname)%09%(committerdate)' refs/heads | sed -e 's-refs/heads/--'"
+alias gd="git branch -D"
+alias gs='git status'
+alias gst='git stash'
+alias gcl='git clean -fd'
+
+# NODE ALIASES
+alias ns='npm start'
+
+# Docker aliases
+alias dcp='docker-compose'
+
+# Helix aliases
+alias nre='npm run e2e'
+
+# GO PATHS
+export PATH=$PATH:/usr/local/go/bin
+export GOBIN=~/go/bin/
+export PATH=$PATH:~/go/bin
