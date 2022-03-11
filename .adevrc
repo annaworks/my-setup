@@ -8,6 +8,7 @@ sba()
 alias gt="git log --oneline --graph --decorate --all"
 alias gl="git log --oneline --decorate"
 alias gp="git pull"
+alias gf="git fetch"
 alias gps="git push"
 alias gc="git checkout"
 alias gcm="git commit -m"
@@ -24,7 +25,7 @@ alias gcl='git clean -fd'
 alias ns='npm start'
 
 # Docker aliases
-alias dcp='docker-compose'
+alias dkc='docker-compose'
 
 # Helix aliases
 alias nre='npm run e2e'
@@ -33,3 +34,9 @@ alias nre='npm run e2e'
 export PATH=$PATH:/usr/local/go/bin
 export GOBIN=~/go/bin/
 export PATH=$PATH:~/go/bin
+
+# K8 ALIASES
+alias k='kubectl'
+
+# ZSH Theme	gozilla
+# Kitty Theme	ln -s ./kitty-themes/themes/Monokai_Pro_\(Filter_Spectrum\).conf ~/.config/kitty/theme.conf
