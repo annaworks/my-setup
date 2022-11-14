@@ -27,7 +27,7 @@ alias ns='npm start'
 # Docker aliases
 alias dkc='docker-compose'
 
-# Helix aliases
+# E2E setup
 alias nre='npm run e2e'
 
 # GO PATHS
@@ -37,6 +37,3 @@ export PATH=$PATH:~/go/bin
 
 # K8 ALIASES
 alias k='kubectl'
-
-# ZSH Theme	gozilla
-# Kitty Theme	ln -s ./kitty-themes/themes/Monokai_Pro_\(Filter_Spectrum\).conf ~/.config/kitty/theme.conf
